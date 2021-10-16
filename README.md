@@ -1,7 +1,7 @@
 ## Sokoban game using BFS and A* search
 With A*, using two heuristic funtions:
-- Simple heuristic: (using manhattan distance)*number of target left
-- Improved heuristic: (find the smallest distance from each position to its nearest target)*number of box moved*target left
+- Simple heuristic: (using manhattan distance) * (number of target left)
+- Improved heuristic: (find the smallest distance from each position to its nearest target) * (number of box moved) * (target left)
 ## Run
 python .\main.py [level] [algorithm] [simulate sol] [file]
 - [level]: type value from 1 to 15 (levels in input file)
